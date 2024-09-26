@@ -1,0 +1,8 @@
+<!-- src/app/search/search.component.html -->
+
+<form (ngSubmit)="buscarInvitado()">
+    <input [(ngModel)]="nombre" placeholder="Nombre" name="nombre" required />
+    <input [(ngModel)]="apellidos" placeholder="Apellidos" name="apellidos" required />
+    <button type="submit">Buscar</button>
+  </form>
+  
